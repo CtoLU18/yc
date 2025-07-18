@@ -1,0 +1,47 @@
+/* File: index.html */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Your Name</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li class="dropdown">
+        <a href="#">Projects ▼</a>
+        <ul class="dropdown-content">
+          <li><a href="#project1">Project 1</a></li>
+          <li><a href="#project2">Project 2</a></li>
+          <li><a href="#project3">Project 3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="content">
+    <section id="about">
+      <h1>About Me</h1>
+      <p>This is a brief introduction about yourself: your background, interests, and goals.</p>
+    </section>
+    <section id="project1">
+      <h1>Project 1: Tableau Dashboard</h1>
+      <p>Description of the Tableau dashboard and what it does.</p>
+      <a href="https://public.tableau.com/yourdashboardlink" target="_blank">View Tableau Dashboard</a>
+    </section>
+    <section id="project2">
+      <h1>Project 2: R Shiny App</h1>
+      <p>Description of the R Shiny app functionality.</p>
+      <a href="https://yourshinyapp.shinyapps.io/app" target="_blank">Launch R Shiny App</a>
+    </section>
+    <section id="project3">
+      <h1>Project 3: Interactive Map</h1>
+      <p>Description of your map and technologies used (e.g., Leaflet, Mapbox).</p>
+      <a href="https://yourinteractiveprojectlink.com" target="_blank">Explore Map</a>
+    </section>
+  </div>
+</body>
+</html>
